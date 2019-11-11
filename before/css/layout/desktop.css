@@ -1,0 +1,31 @@
+/* Desktop Layout */
+.container {
+  flex-direction:column;
+  align-items:center;
+}
+.header, .main {
+  width:1000px;
+}
+.navigation, .footer {
+  width:100%;
+}
+
+/* 메인 컨텐츠 */
+.main {
+  justify-content: space-between;
+}
+.book {
+  width:320px;
+}
+.news {
+  width:640px;
+}
+.board {
+  width:320px;
+}
+.favorite {
+  width:260px;
+}
+.twitter {
+  width:340px;
+}

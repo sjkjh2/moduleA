@@ -1,0 +1,41 @@
+/* Common Layout */
+.container { 
+  display:flex; 
+  flex-wrap:wrap; 
+  height:100vh; 
+  background:silver; 
+}
+.header, 
+.navigation, 
+.main, 
+.footer { 
+  box-sizing: border-box;
+  flex-shrink:0; 
+  width:100%; 
+}
+
+/* 헤더 */
+.header { 
+  background:yellow; 
+}
+
+/* 네비게이션 */
+.navigation { /* order:1; */ 
+  height:20vh; 
+  background:pink; 
+}
+
+/* 메인컨텐츠 */
+.main { 
+  height:50vh; 
+  background:skyblue; 
+  display:flex; 
+  flex-flow:row wrap; }
+.book, .news, .board, .favorite, .twitter { 
+  background:rgba(255, 255, 0, 0.5);
+ }
+
+/* 메인컨텐츠*/
+.footer { /* order:-1; */ 
+  height:20vh; background:orange; 
+}

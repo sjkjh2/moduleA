@@ -1,0 +1,30 @@
+/* All Device CSS */
+/* hidden content */
+legend,.ally-hidden {
+  position:absolute;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  clip:rect(0,0,0,0);
+  clip-path:polygon(0 0, 0 0, 0 0);
+}
+
+/* base style */
+html {
+  font-size:10px;
+}
+body {
+  font-size:1.4rem;
+  color:#181818;
+  background:#fff;
+}
+fieldset {
+  margin:0;
+  padding:0;
+  border:0;
+}
+/* anchor style */
+a {
+  text-decoration:none;
+  color:inherit;
+}
